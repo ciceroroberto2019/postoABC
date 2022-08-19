@@ -1,0 +1,56 @@
+criar banco
+.database postABC.bd
+
+
+/*tabela combustivel
+id_combustivel
+bomba
+tipo_combustivel
+cabacidade
+valor_litro
+imposto*/
+
+CREATE TABLE BOMBACOMBUSTIVEL (ID_COMBUSTIVEL INTEGER PRIMARY KEY AUTOINCREMENT, BOMBA VARCHAR(13), TIPO_COMBUSTIVEL VARCHAR(13), CAPACIDADE INTEGER, VALOR_LITRO REAL, IMPOSTO REAL);
+
+INSERT INTO BOMBACOMBUSTIVEL (
+                                 
+                                 BOMBA,
+                                 TIPO_COMBUSTIVEL,
+                                 CAPACIDADE,
+                                 VALOR_LITRO,
+                                 IMPOSTO
+                             )
+                             VALUES (
+                                 'GASOLINA01',
+                                 'GASOLINA',
+                                 '50000',
+                                 '75,89',
+                                 '13'
+                             );
+
+/*tabela VENDACOMBUSTIVEL
+id venda
+id_combustivel
+quantidade_litros
+hora_VENDA
+data_VENDA
+valor_unitario
+Total_Pago_Com_Imposto*/
+
+CREATE TABLE VENDACOMBUSTIVEL(ID_VENDA INTEGER PRIMARY KEY AUTOINCREMENT not null, COMBUSTIVEL_ID INTEGER not null, QUANTIDADE_LITROS INTEGER, HORA_VENDA TIME, DATA_VENDA DATE, VALOR_UNITARIO REAL, TOTAL_PAGO_COM_IMPOSTO REAL , CONSTRAINT FKCOMBUSTIVEL_ID FOREIGN KEY(COMBUSTIVEL_ID) REFERENCES BOMBACOMBUSTIVEL (ID_COMBUSTIVEL));
+
+INSERT INTO BOMBACOMBUSTIVEL (
+                                 
+                                 BOMBA,
+                                 TIPO_COMBUSTIVEL,
+                                 CAPACIDADE,
+                                 VALOR_LITRO,
+                                 IMPOSTO
+                             )
+                             VALUES (
+                                 'OLEO DIESEL02',
+                                 'OLEO DIESEL',
+                                 '50000',
+                                 '7,42',
+                                 '13'
+                             );
