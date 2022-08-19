@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/19 21:12:08.000.971,=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/12 21:40:27.000.969,=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/12 21:47:21.000.337,=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/15 23:38:54.000.442,=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/15 23:40:36.000.347,C:\ABC\view\postoABC.view.main.pas=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/15 23:40:36.000.347,C:\ABC\view\postoABC.view.main.dfm=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/08/15 23:40:51.000.407,C:\ABC\postoAbc.dproj=C:\Users\Cicero\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/08/16 20:09:12.000.014,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 20:55:49.000.001,C:\ABC\model\postoABC.model.BombaCombustivel.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:01:30.000.344,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:09:46.000.686,C:\ABC\model\postoABC.model.VendaCombustivel.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:47:17.000.311,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:48:24.000.711,C:\ABC\model\postoABC.Model.Conexao.Firedac.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:51:56.000.807,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 21:52:33.000.391,C:\ABC\model\postoABC.Model.Conexao.Interfaces.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 22:07:07.000.591,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 22:07:24.000.455,C:\ABC\model\postoABC.Model.Query.Firedac.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:09:38.000.658,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:10:05.000.914,C:\ABC\model\postoABC.Model.Entidade.Usuario.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:20:19.000.340,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:21:22.000.436,C:\ABC\controller\postoABC.Controller.Factory.Query.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:25:27.000.876,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/16 23:26:09.000.964,C:\ABC\controller\postoABC.Controller.Factory.Interfaces.pas=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/17 21:56:43.000.803,=C:\ABC\Unit1.pas</Transaction>
+    <Transaction>2022/08/17 21:57:25.000.366,C:\ABC\Unit1.pas=C:\ABC\dao\postoABC.DAO.VendaCombustivel.pas</Transaction>
+    <Transaction>2022/08/18 20:55:02.000.773,=C:\ABC\Unit2.pas</Transaction>
+    <Transaction>2022/08/18 21:15:30.000.768,C:\ABC\Unit2.dfm=C:\ABC\view\postoABC.view.relatorio.dfm</Transaction>
+    <Transaction>2022/08/18 21:15:30.000.768,C:\ABC\Unit2.pas=C:\ABC\view\postoABC.view.relatorio.pas</Transaction>
+  </Transactions>
+</BorlandProject>
